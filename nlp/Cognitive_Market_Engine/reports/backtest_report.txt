@@ -1,0 +1,244 @@
+======================================================================
+  COGNITIVE MARKET ENGINE  -  BACKTEST REPORT
+======================================================================
+  Generated : 2026-03-06 20:12:14
+  Asset     : BTC-USD
+  Period    : 2024-01-10 to 2025-12-18
+  Data      : Real yfinance prices + FinBERT NLP sentiment
+  Modules   : 67 loaded (67 modules from 96 files)
+  Runtime   : 32.3s
+
+----------------------------------------------------------------------
+  PERFORMANCE SUMMARY
+----------------------------------------------------------------------
+  Initial Capital     : $100,000.00
+  Final Capital       : $100,429.91
+  Total Return        : +0.43%
+  Annualized Return   : +0.24%
+  Sharpe Ratio        : 2.191
+  Sortino Ratio       : 10.431
+  Max Drawdown        : 0.57%
+  Win Rate            : 45.2%
+  Profit Factor       : 1.290
+  Avg Win             : $136.46
+  Avg Loss            : $-87.09
+  Total Trades        : 31
+  Winners             : 14
+  Losers              : 17
+  Avg Holding Period  : 20 days, 12:22:15.483871
+  Dir. Accuracy       : 61.3%
+
+----------------------------------------------------------------------
+  HISTORICAL EVENTS (35 events, real BTC prices)
+----------------------------------------------------------------------
+  2024-01-10  regulatory       $    46,628  24h= -0.56%  SEC approves spot Bitcoin ETFs for US markets
+  2024-03-11  technical        $    72,124  24h= -0.89%  Bitcoin surges past $72,000 reaching new all-time high
+  2024-03-20  rate_decision    $    67,914  24h= -3.57%  Federal Reserve holds rates steady, signals three cuts 
+  2024-04-19  technical        $    63,844  24h= +1.80%  Bitcoin halving completed at block 840,000
+  2024-05-20  regulatory       $    71,448  24h= -1.84%  Ethereum spot ETF approval surprises markets
+  2024-06-12  rate_decision    $    68,241  24h= -2.18%  Fed signals only one rate cut in 2024, CPI comes in hot
+  2024-07-05  geopolitical     $    56,662  24h= +2.90%  German government begins selling seized Bitcoin worth $
+  2024-08-05  geopolitical     $    53,991  24h= +3.78%  Global markets crash as Japan's Nikkei drops 12% in wor
+  2024-09-18  rate_decision    $    61,650  24h= +2.09%  Federal Reserve cuts rates by 50 basis points in first 
+  2024-11-05  geopolitical     $    69,360  24h= +9.05%  Donald Trump wins 2024 presidential election, markets r
+  2024-11-22  regulatory       $    98,998  24h= -1.23%  SEC Chair Gary Gensler announces resignation effective 
+  2024-12-05  technical        $    96,594  24h= +3.44%  Bitcoin crosses $100,000 for the first time in history
+  2024-12-18  rate_decision    $   100,042  24h= -2.55%  Fed cuts rates 25bp but signals fewer cuts in 2025, haw
+  2025-01-20  regulatory       $   102,017  24h= +4.05%  Trump inaugurated, signs executive order establishing c
+  2025-01-29  rate_decision    $   103,703  24h= +1.00%  Federal Reserve holds rates at 4.25-4.50%, cites persis
+  2025-02-03  geopolitical     $   101,405  24h= -3.48%  Trump announces sweeping tariffs on China, Mexico, Cana
+  2025-02-28  macro_data       $    84,373  24h= +1.97%  US GDP growth slows sharply to 1.2% as tariff uncertain
+  2025-03-07  regulatory       $    86,743  24h= -0.68%  Trump signs executive order creating US Strategic Bitco
+  2025-03-19  rate_decision    $    86,854  24h= -3.09%  Federal Reserve holds rates, downgrades growth outlook 
+  2025-04-02  geopolitical     $    82,486  24h= +0.75%  Trump announces 'Liberation Day' tariffs — sweeping rec
+  2025-04-09  geopolitical     $    82,574  24h= -3.57%  Trump pauses all reciprocal tariffs for 90 days except 
+  2025-05-07  rate_decision    $    97,032  24h= +6.40%  Federal Reserve holds rates steady, warns of rising ris
+  2025-05-12  geopolitical     $   102,813  24h= +1.32%  US and China agree to slash tariffs for 90 days in Gene
+  2025-05-22  technical        $   111,673  24h= -3.93%  Bitcoin breaks $110,000, reaching new all-time high ami
+  2025-06-18  rate_decision    $   104,883  24h= -0.19%  Federal Reserve holds rates at 4.25-4.50% for sixth con
+  2025-07-10  macro_data       $   115,987  24h= +1.32%  US CPI drops to 2.4%, below expectations, raising hopes
+  2025-07-30  rate_decision    $   117,831  24h= -1.76%  Federal Reserve holds rates but signals September cut i
+  2025-08-15  earnings         $   117,398  24h= +0.08%  MicroStrategy surpasses 600,000 BTC holdings, becomes l
+  2025-09-17  rate_decision    $   116,469  24h= +0.57%  Federal Reserve cuts rates by 25 basis points, first cu
+  2025-10-08  regulatory       $   123,355  24h= -1.34%  Senate passes GENIUS Act establishing comprehensive sta
+  2025-10-29  macro_data       $   110,055  24h= -1.59%  US GDP grows 3.1% in Q3 2025, beating expectations as c
+  2025-11-05  rate_decision    $   103,892  24h= -2.49%  Federal Reserve cuts rates by 25bp to 3.75-4.00%, signa
+  2025-11-20  technical        $    86,632  24h= -1.78%  Bitcoin approaches $120,000 as institutional and sovere
+  2025-12-10  macro_data       $    92,021  24h= +0.53%  US CPI falls to 2.1%, nearly reaching Fed's 2% target
+  2025-12-17  rate_decision    $    86,144  24h= -0.79%  Federal Reserve cuts rates by 25bp to 3.50-3.75%, signa
+
+----------------------------------------------------------------------
+  EVENT-STUDY DIRECTIONAL ANALYSIS
+----------------------------------------------------------------------
+  Events analyzed     : 35
+  Events with signals : 31
+  Directional accuracy: 61.3%
+
+  Status  Date          Type             Predicted   Conf    Headline
+  ------  ----          ----             ---------   ----    --------
+  OK      2024-01-10                     bearish     0.478  SEC approves spot Bitcoin ETFs for US markets
+  OK      2024-03-11                     bearish     0.543  Bitcoin surges past $72,000 reaching new all-time 
+  OK      2024-04-19                     bullish     0.701  Bitcoin halving completed at block 840,000
+  OK      2024-05-20                     bearish     0.688  Ethereum spot ETF approval surprises markets
+  WRONG   2024-06-12                     bullish     0.804  Fed signals only one rate cut in 2024, CPI comes i
+  OK      2024-07-05                     bullish     0.805  German government begins selling seized Bitcoin wo
+  OK      2024-08-05                     bullish     0.847  Global markets crash as Japan's Nikkei drops 12% i
+  WRONG   2024-09-18                     bearish     0.669  Federal Reserve cuts rates by 50 basis points in f
+  WRONG   2024-11-05                     bearish     0.687  Donald Trump wins 2024 presidential election, mark
+  WRONG   2024-11-22                     bullish     0.950  SEC Chair Gary Gensler announces resignation effec
+  WRONG   2024-12-05                     bearish     0.671  Bitcoin crosses $100,000 for the first time in his
+  WRONG   2024-12-18                     bullish     0.625  Fed cuts rates 25bp but signals fewer cuts in 2025
+  OK      2025-01-29                     bullish     0.777  Federal Reserve holds rates at 4.25-4.50%, cites p
+  WRONG   2025-02-03                     bullish     0.759  Trump announces sweeping tariffs on China, Mexico,
+  OK      2025-02-28                     bullish     0.749  US GDP growth slows sharply to 1.2% as tariff unce
+  WRONG   2025-03-19                     bullish     0.765  Federal Reserve holds rates, downgrades growth out
+  OK      2025-04-02                     bullish     0.738  Trump announces 'Liberation Day' tariffs — sweepin
+  OK      2025-04-09                     bearish     0.555  Trump pauses all reciprocal tariffs for 90 days ex
+  OK      2025-05-07                     bullish     0.704  Federal Reserve holds rates steady, warns of risin
+  WRONG   2025-05-12                     bearish     0.623  US and China agree to slash tariffs for 90 days in
+  OK      2025-05-22                     bearish     0.659  Bitcoin breaks $110,000, reaching new all-time hig
+  WRONG   2025-06-18                     bullish     0.778  Federal Reserve holds rates at 4.25-4.50% for sixt
+  OK      2025-07-10                     bullish     0.820  US CPI drops to 2.4%, below expectations, raising 
+  OK      2025-07-30                     bearish     0.735  Federal Reserve holds rates but signals September 
+  OK      2025-08-15                     bullish     0.812  MicroStrategy surpasses 600,000 BTC holdings, beco
+  OK      2025-09-17                     bullish     0.652  Federal Reserve cuts rates by 25 basis points, fir
+  OK      2025-10-29                     bearish     0.917  US GDP grows 3.1% in Q3 2025, beating expectations
+  WRONG   2025-11-05                     bullish     0.909  Federal Reserve cuts rates by 25bp to 3.75-4.00%, 
+  OK      2025-11-20                     bearish     0.865  Bitcoin approaches $120,000 as institutional and s
+  OK      2025-12-10                     bullish     0.950  US CPI falls to 2.1%, nearly reaching Fed's 2% tar
+  WRONG   2025-12-17                     bullish     0.889  Federal Reserve cuts rates by 25bp to 3.50-3.75%, 
+
+----------------------------------------------------------------------
+  STATISTICAL SIGNIFICANCE
+----------------------------------------------------------------------
+  directional    :  p=0.088148  |  Cannot reject H0 — model may not beat random (p=0.0881)
+  timing         :  p=0.0  |  Model is significantly better than random (p=0.0000)
+  overall        :  p=N/A  |  Mean accuracy 62.9% vs random 50.0% — not significantly different
+
+----------------------------------------------------------------------
+  TRADE LOG (31 trades)
+----------------------------------------------------------------------
+    #  W/L  Dir              Entry          Exit         P&L      P&L%      Hold  Exit Reason
+  ---  ---  ---              -----          ----         ---      ----      ----  -----------
+    1  L    bearish   $    46,628  $    48,047  $   -61.48   -3.04%    60d    stop_loss
+    2  W    bearish   $    72,124  $    67,914  $  +145.26   +5.84%     9d    timeout
+    3  W    bullish   $    63,844  $    68,542  $  +259.29   +7.36%    30d    take_profit
+    4  W    bearish   $    71,448  $    68,241  $  +138.27   +4.49%    23d    timeout
+    5  L    bullish   $    68,241  $    67,218  $   -60.44   -1.50%    22d    stop_loss
+    6  L    bullish   $    56,662  $    55,323  $   -87.11   -2.36%    30d    stop_loss
+    7  W    bullish   $    53,991  $    57,698  $  +320.98   +6.87%    44d    take_profit
+    8  L    bearish   $    61,650  $    63,147  $   -87.98   -2.43%    48d    stop_loss
+    9  L    bearish   $    69,360  $    70,745  $   -79.97   -2.00%    16d    stop_loss
+   10  L    bullish   $    98,998  $    96,594  $  -126.89   -2.43%    12d    timeout
+   11  L    bearish   $    96,594  $    98,704  $   -82.89   -2.19%    13d    stop_loss
+   12  W    bullish   $   100,042  $   102,017  $   +63.35   +1.97%    32d    timeout
+   13  L    bullish   $   103,703  $   101,495  $   -82.91   -2.13%     4d    stop_loss
+   14  L    bullish   $   101,405  $    99,254  $   -72.95   -2.12%    25d    stop_loss
+   15  W    bullish   $    84,373  $    86,743  $   +95.10   +2.81%     7d    timeout
+   16  L    bullish   $    86,854  $    84,025  $  -110.07   -3.26%    13d    stop_loss
+   17  W    bullish   $    82,486  $    82,574  $    +3.76   +0.11%     6d    timeout
+   18  L    bearish   $    82,574  $    85,317  $   -89.20   -3.32%    28d    stop_loss
+   19  W    bullish   $    97,032  $   100,671  $  +118.22   +3.75%     4d    take_profit
+   20  L    bearish   $   102,813  $   104,813  $   -61.78   -1.94%    10d    stop_loss
+   21  W    bearish   $   111,673  $   107,486  $  +137.44   +3.75%    27d    take_profit
+   22  W    bullish   $   104,883  $   109,814  $  +177.73   +4.70%    21d    take_profit
+   23  W    bullish   $   115,987  $   117,831  $   +68.83   +1.59%    20d    timeout
+   24  W    bearish   $   117,831  $   117,398  $   +14.48   +0.37%    15d    timeout
+   25  L    bullish   $   117,398  $   116,469  $   -36.95   -0.79%    33d    timeout
+   26  W    bullish   $   116,469  $   120,836  $  +135.30   +3.75%    20d    take_profit
+   27  W    bearish   $   110,055  $   105,572  $  +232.45   +4.07%     7d    take_profit
+   28  L    bullish   $   103,892  $   101,666  $  -122.10   -2.14%    14d    stop_loss
+   29  L    bearish   $    86,632  $    88,682  $  -129.73   -2.37%    20d    stop_loss
+   30  L    bullish   $    92,021  $    89,862  $  -143.08   -2.35%     7d    stop_loss
+   31  L    bullish   $    86,144  $    85,463  $   -45.05   -0.79%     1d    backtest_end
+
+----------------------------------------------------------------------
+  PARTICIPANT ACCURACY
+----------------------------------------------------------------------
+  hft                                   48.6%  (35 events)
+  market_maker                          48.6%  (35 events)
+  phase_bank                            48.6%  (35 events)
+  phase_hedge_fund                      48.6%  (35 events)
+  phase_hft                             48.6%  (35 events)
+  phase_market_maker                    48.6%  (35 events)
+  phase_retail                          48.6%  (35 events)
+  retail                                45.7%  (35 events)
+  hedge_fund                            45.7%  (35 events)
+  bank                                  45.7%  (35 events)
+
+----------------------------------------------------------------------
+  AMBIGUITY & COMPETING NARRATIVES
+----------------------------------------------------------------------
+  Total events    : 35
+  Ambiguous (>0.3): 33
+  Ambiguity rate  : 94.3%
+
+  [0.77] Trump pauses all reciprocal tariffs for 90 days except on China, 
+    -> Participant divergence: belief_shifts range from -0.24 to 0.21
+    -> Agreement score: 30.00% — significant ambiguity
+    -> NLP sentiment (-0.90) vs participant consensus (+0.06) — competing narratives
+    -> Low cross-source trust (0.30) — potential manipulation
+  [0.74] Federal Reserve cuts rates by 25 basis points, first cut of 2025
+    -> Participant divergence: belief_shifts range from -0.08 to 0.07
+    -> Agreement score: 30.00% — significant ambiguity
+    -> Low cross-source trust (0.30) — potential manipulation
+  [0.74] SEC approves spot Bitcoin ETFs for US markets
+    -> Participant divergence: belief_shifts range from -0.08 to 0.07
+    -> Agreement score: 30.00% — significant ambiguity
+    -> NLP sentiment (-0.72) vs participant consensus (+0.02) — competing narratives
+    -> Low cross-source trust (0.30) — potential manipulation
+  [0.74] Federal Reserve cuts rates by 50 basis points in first cut since 
+    -> Participant divergence: belief_shifts range from -0.08 to 0.07
+    -> Agreement score: 30.00% — significant ambiguity
+    -> NLP sentiment (-0.89) vs participant consensus (+0.02) — competing narratives
+    -> Low cross-source trust (0.30) — potential manipulation
+  [0.74] Fed cuts rates 25bp but signals fewer cuts in 2025, hawkish dot p
+    -> Participant divergence: belief_shifts range from -0.08 to 0.07
+    -> Agreement score: 30.00% — significant ambiguity
+    -> Low cross-source trust (0.30) — potential manipulation
+
+----------------------------------------------------------------------
+  FEEDBACK LOOP CREDIBILITY
+----------------------------------------------------------------------
+  Total validated : 35
+  Total correct   : 19
+  Overall accuracy: 0.5428571428571428
+  Model weight    : 1.5661
+  Direction acc.  : 0.5886
+  Best event type : macro_data
+  Worst event type: rate_decision
+
+----------------------------------------------------------------------
+  VALIDATION  (15 checks)
+----------------------------------------------------------------------
+  [PASS]  Events processed >= 20                    = 35
+  [PASS]  Trades executed >= 5                      = 31
+  [PASS]  Directional accuracy >= 55%               = 61.3%
+  [PASS]  Win rate >= 45%                           = 45.2%
+  [PASS]  Sharpe ratio > 0                          = 2.191
+  [PASS]  Max drawdown < 30%                        = 0.57%
+  [PASS]  Profit factor > 1.0                       = 1.290
+  [PASS]  Participant interpretations > 0           = 35
+  [PASS]  Scenario trees generated > 0              = 35
+  [PASS]  Hidden truth analysis > 0                 = 35
+  [PASS]  Economic analysis > 0                     = 11
+  [PASS]  Alpha signals generated > 0               = 35
+  [PASS]  Feedback loop active                      = True
+  [PASS]  Data cutoff <= Dec 2025                   = 2025-12-17
+  [PASS]  CME modules loaded >= 20                  = 67
+
+  Result: 15/15 checks passed
+
+----------------------------------------------------------------------
+  DATA SOURCES (all real, no demo)
+----------------------------------------------------------------------
+  BTC Prices  : yfinance (Yahoo Finance) real OHLC daily data
+  News Events : 35 curated real-world events (Jan 2024 - Dec 2025)
+  NLP Model   : FinBERT (ProsusAI/finbert) transformer sentiment
+  Fallback    : spaCy en_core_web_sm + financial lexicon
+  Participants: 10 cognitive models (5 engine + 5 phase-pipeline)
+  Signal      : Contrarian NLP (negative FinBERT = bullish crypto)
+
+======================================================================
+  END OF REPORT
+======================================================================

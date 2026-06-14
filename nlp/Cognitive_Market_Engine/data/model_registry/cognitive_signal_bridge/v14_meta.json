@@ -1,0 +1,17 @@
+{
+  "name": "cognitive_signal_bridge",
+  "version": 14,
+  "stage": "development",
+  "metrics": {
+    "event_id": 95
+  },
+  "parameters": {
+    "asset": "BTC",
+    "event_type": "regulatory"
+  },
+  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v14",
+  "created_at": 1772808129.9310882,
+  "description": "Signal for e107db50da26",
+  "tags": {},
+  "lineage": {}
+}

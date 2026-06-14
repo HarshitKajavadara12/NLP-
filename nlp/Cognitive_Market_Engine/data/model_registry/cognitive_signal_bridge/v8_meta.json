@@ -1,0 +1,17 @@
+{
+  "name": "cognitive_signal_bridge",
+  "version": 8,
+  "stage": "development",
+  "metrics": {
+    "event_id": 693
+  },
+  "parameters": {
+    "asset": "BTC",
+    "event_type": "geopolitical"
+  },
+  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v8",
+  "created_at": 1772808129.07695,
+  "description": "Signal for 6288b729d84a",
+  "tags": {},
+  "lineage": {}
+}

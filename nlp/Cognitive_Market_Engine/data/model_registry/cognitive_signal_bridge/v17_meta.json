@@ -1,0 +1,17 @@
+{
+  "name": "cognitive_signal_bridge",
+  "version": 17,
+  "stage": "development",
+  "metrics": {
+    "event_id": 987
+  },
+  "parameters": {
+    "asset": "BTC",
+    "event_type": "macro_data"
+  },
+  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v17",
+  "created_at": 1772808130.3831482,
+  "description": "Signal for 84df859ffdee",
+  "tags": {},
+  "lineage": {}
+}

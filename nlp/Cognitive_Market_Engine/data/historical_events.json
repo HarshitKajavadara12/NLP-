@@ -1,0 +1,632 @@
+[
+  {
+    "event_id": "47055ac8a0e5",
+    "timestamp": "2024-01-10T14:30:00",
+    "headline": "SEC approves spot Bitcoin ETFs for US markets",
+    "content": "The SEC has officially approved multiple spot Bitcoin ETF applications from BlackRock, Fidelity, and others. This marks a watershed moment for institutional crypto adoption.",
+    "source": "reuters",
+    "event_type": "regulatory",
+    "price_at_event": 46627.78,
+    "price_1h_after": 46627.78,
+    "price_4h_after": 46627.78,
+    "price_24h_after": 46368.59,
+    "vol_before": 0.6087,
+    "vol_after": 0.5404,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "cba4ad98e6ce",
+    "timestamp": "2024-03-11T09:00:00",
+    "headline": "Bitcoin surges past $72,000 reaching new all-time high",
+    "content": "Bitcoin has broken through $72,000 for the first time, driven by massive inflows into newly approved spot ETFs. Daily ETF inflows exceed $1 billion.",
+    "source": "bloomberg",
+    "event_type": "technical",
+    "price_at_event": 72123.91,
+    "price_1h_after": 72123.91,
+    "price_4h_after": 72123.91,
+    "price_24h_after": 71481.29,
+    "vol_before": 0.7618,
+    "vol_after": 0.7025,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "55b07be0e23b",
+    "timestamp": "2024-03-20T18:00:00",
+    "headline": "Federal Reserve holds rates steady, signals three cuts in 2024",
+    "content": "The Fed maintained the federal funds rate at 5.25-5.50% but the dot plot suggests three rate cuts this year. Powell says inflation is moving in the right direction.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 67913.67,
+    "price_1h_after": 67913.67,
+    "price_4h_after": 67913.67,
+    "price_24h_after": 65491.39,
+    "vol_before": 0.8632,
+    "vol_after": 1.1747,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "22a26c07e610",
+    "timestamp": "2024-04-19T12:00:00",
+    "headline": "Bitcoin halving completed at block 840,000",
+    "content": "The fourth Bitcoin halving has been completed, reducing the block reward from 6.25 BTC to 3.125 BTC. Miners now receive half the previous reward for validating transactions.",
+    "source": "coindesk",
+    "event_type": "technical",
+    "price_at_event": 63843.57,
+    "price_1h_after": 63843.57,
+    "price_4h_after": 63843.57,
+    "price_24h_after": 64994.44,
+    "vol_before": 0.5888,
+    "vol_after": 0.6723,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "financial"
+    }
+  },
+  {
+    "event_id": "dc201331bb93",
+    "timestamp": "2024-05-20T10:00:00",
+    "headline": "Ethereum spot ETF approval surprises markets",
+    "content": "The SEC has unexpectedly approved spot Ethereum ETFs, catching many traders off-guard. The move signals a broader regulatory shift toward crypto acceptance.",
+    "source": "bloomberg",
+    "event_type": "regulatory",
+    "price_at_event": 71448.2,
+    "price_1h_after": 71448.2,
+    "price_4h_after": 71448.2,
+    "price_24h_after": 70136.53,
+    "vol_before": 0.6487,
+    "vol_after": 0.7934,
+    "metadata": {
+      "asset": "ETH",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "2150ce198638",
+    "timestamp": "2024-06-12T18:00:00",
+    "headline": "Fed signals only one rate cut in 2024, CPI comes in hotter than expected",
+    "content": "The Federal Reserve revised its dot plot to signal just one rate cut in 2024, down from three. May CPI data showed persistent inflation at 3.3% year-over-year.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 68241.19,
+    "price_1h_after": 68241.19,
+    "price_4h_after": 68241.19,
+    "price_24h_after": 66756.4,
+    "vol_before": 0.2847,
+    "vol_after": 0.2934,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "dcbcfea5cd38",
+    "timestamp": "2024-07-05T08:00:00",
+    "headline": "German government begins selling seized Bitcoin worth $3 billion",
+    "content": "Germany's Federal Criminal Police Office (BKA) has started liquidating approximately 50,000 BTC seized from a movie piracy operation, putting significant sell pressure on the market.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 56662.38,
+    "price_1h_after": 56662.38,
+    "price_4h_after": 56662.38,
+    "price_24h_after": 58303.54,
+    "vol_before": 0.4727,
+    "vol_after": 0.5222,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "6288b729d84a",
+    "timestamp": "2024-08-05T06:00:00",
+    "headline": "Global markets crash as Japan's Nikkei drops 12% in worst day since 1987",
+    "content": "The Bank of Japan's surprise rate hike triggered a massive unwinding of yen carry trades. Bitcoin crashed to $49,000 as risk assets sold off globally. The VIX spiked to 65.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 53991.46,
+    "price_1h_after": 53991.46,
+    "price_4h_after": 53991.46,
+    "price_24h_after": 56034.32,
+    "vol_before": 0.5492,
+    "vol_after": 0.5841,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "d79037a4e551",
+    "timestamp": "2024-09-18T18:00:00",
+    "headline": "Federal Reserve cuts rates by 50 basis points in first cut since 2020",
+    "content": "The Fed surprised markets with a 50bp rate cut to 4.75-5.00%, larger than the expected 25bp. Powell cited cooling labor market and confidence that inflation is moving toward 2%.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 61649.68,
+    "price_1h_after": 61649.68,
+    "price_4h_after": 61649.68,
+    "price_24h_after": 62940.46,
+    "vol_before": 0.4856,
+    "vol_after": 0.4584,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "ec7526b243ab",
+    "timestamp": "2024-11-05T22:00:00",
+    "headline": "Donald Trump wins 2024 presidential election, markets rally",
+    "content": "Donald Trump has won the 2024 presidential election. His pro-crypto stance and promises to make the US the 'crypto capital of the world' sent Bitcoin surging past $75,000.",
+    "source": "ap",
+    "event_type": "geopolitical",
+    "price_at_event": 69359.56,
+    "price_1h_after": 69359.56,
+    "price_4h_after": 75639.08,
+    "price_24h_after": 75639.08,
+    "vol_before": 0.3996,
+    "vol_after": 0.2992,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "fb4754dd52ec",
+    "timestamp": "2024-11-22T10:00:00",
+    "headline": "SEC Chair Gary Gensler announces resignation effective January 2025",
+    "content": "SEC Chair Gary Gensler, known for his aggressive crypto enforcement stance, announced he will resign. Markets view this as extremely bullish for crypto regulation.",
+    "source": "reuters",
+    "event_type": "regulatory",
+    "price_at_event": 98997.66,
+    "price_1h_after": 98997.66,
+    "price_4h_after": 98997.66,
+    "price_24h_after": 97777.28,
+    "vol_before": 0.6277,
+    "vol_after": 0.3394,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "e443278da6e4",
+    "timestamp": "2024-12-05T08:00:00",
+    "headline": "Bitcoin crosses $100,000 for the first time in history",
+    "content": "Bitcoin has surpassed the historic $100,000 milestone, driven by post-election optimism, institutional ETF demand, and anticipation of a crypto-friendly regulatory environment.",
+    "source": "bloomberg",
+    "event_type": "technical",
+    "price_at_event": 96593.57,
+    "price_1h_after": 96593.57,
+    "price_4h_after": 96593.57,
+    "price_24h_after": 99920.71,
+    "vol_before": 0.437,
+    "vol_after": 0.3522,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "284e23c1c76f",
+    "timestamp": "2024-12-18T18:00:00",
+    "headline": "Fed cuts rates 25bp but signals fewer cuts in 2025, hawkish dot plot",
+    "content": "The Fed cut rates by 25bp to 4.25-4.50% but the dot plot surprised with only two rate cuts expected in 2025. Markets sold off sharply on the hawkish guidance.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 100041.54,
+    "price_1h_after": 100041.54,
+    "price_4h_after": 100041.54,
+    "price_24h_after": 97490.95,
+    "vol_before": 0.5379,
+    "vol_after": 0.5454,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "e107db50da26",
+    "timestamp": "2025-01-20T12:00:00",
+    "headline": "Trump inaugurated, signs executive order establishing crypto strategic reserve framework",
+    "content": "President Trump signed an executive order creating a national digital asset strategic reserve working group. The order directs agencies to evaluate building a Bitcoin strategic reserve.",
+    "source": "whitehouse",
+    "event_type": "regulatory",
+    "price_at_event": 102016.66,
+    "price_1h_after": 102016.66,
+    "price_4h_after": 102016.66,
+    "price_24h_after": 106146.27,
+    "vol_before": 0.5234,
+    "vol_after": 0.5258,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "cededd143c56",
+    "timestamp": "2025-01-29T18:00:00",
+    "headline": "Federal Reserve holds rates at 4.25-4.50%, cites persistent inflation",
+    "content": "The Fed paused rate cuts citing sticky inflation. Powell noted the economy remains strong but risks are balanced. Markets had expected a hold.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 103703.21,
+    "price_1h_after": 103703.21,
+    "price_4h_after": 103703.21,
+    "price_24h_after": 104735.3,
+    "vol_before": 0.4259,
+    "vol_after": 0.2569,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "1a8cc4c418a4",
+    "timestamp": "2025-02-03T09:00:00",
+    "headline": "Trump announces sweeping tariffs on China, Mexico, Canada \u2014 trade war escalates",
+    "content": "President Trump announced 25% tariffs on Canada and Mexico and additional 10% tariffs on China. Markets tumbled as fears of a global trade war intensified.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 101405.42,
+    "price_1h_after": 101405.42,
+    "price_4h_after": 101405.42,
+    "price_24h_after": 97871.82,
+    "vol_before": 0.4243,
+    "vol_after": 0.4791,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "84df859ffdee",
+    "timestamp": "2025-02-28T14:00:00",
+    "headline": "US GDP growth slows sharply to 1.2% as tariff uncertainty weighs on investment",
+    "content": "Q4 2024 GDP was revised down to 1.2% annualized, below expectations of 2.3%. Business investment declined as companies delayed decisions amid tariff uncertainty.",
+    "source": "bloomberg",
+    "event_type": "macro_data",
+    "price_at_event": 84373.01,
+    "price_1h_after": 84373.01,
+    "price_4h_after": 84373.01,
+    "price_24h_after": 86031.91,
+    "vol_before": 0.4067,
+    "vol_after": 0.4792,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "1f49a4e820d2",
+    "timestamp": "2025-03-07T14:00:00",
+    "headline": "Trump signs executive order creating US Strategic Bitcoin Reserve from seized assets",
+    "content": "President Trump signed an executive order establishing a Strategic Bitcoin Reserve using BTC already held by the government from criminal seizures. A separate Digital Asset Stockpile was also created.",
+    "source": "whitehouse",
+    "event_type": "regulatory",
+    "price_at_event": 86742.67,
+    "price_1h_after": 86742.67,
+    "price_4h_after": 86742.67,
+    "price_24h_after": 86154.59,
+    "vol_before": 0.8448,
+    "vol_after": 1.0992,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "0a6be4016caa",
+    "timestamp": "2025-03-19T18:00:00",
+    "headline": "Federal Reserve holds rates, downgrades growth outlook amid tariff uncertainty",
+    "content": "The Fed held rates at 4.25-4.50% and lowered its GDP growth forecast for 2025. Powell warned that tariffs could temporarily push inflation higher.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 86854.23,
+    "price_1h_after": 86854.23,
+    "price_4h_after": 86854.23,
+    "price_24h_after": 84167.2,
+    "vol_before": 0.6514,
+    "vol_after": 0.5793,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "f1382ad48c46",
+    "timestamp": "2025-04-02T16:00:00",
+    "headline": "Trump announces 'Liberation Day' tariffs \u2014 sweeping reciprocal tariffs on all trading partners",
+    "content": "In what he called 'Liberation Day', Trump announced a baseline 10% tariff on all imports with higher reciprocal tariffs on specific countries. Global markets plunged.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 82485.71,
+    "price_1h_after": 82485.71,
+    "price_4h_after": 82485.71,
+    "price_24h_after": 83102.83,
+    "vol_before": 0.3881,
+    "vol_after": 0.4389,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "20b3856d2d5b",
+    "timestamp": "2025-04-09T08:00:00",
+    "headline": "Trump pauses all reciprocal tariffs for 90 days except on China, markets surge",
+    "content": "Trump announced a 90-day pause on reciprocal tariffs for all countries except China, where tariffs were raised to 145%. Markets surged on the relief rally.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 82573.95,
+    "price_1h_after": 82573.95,
+    "price_4h_after": 82573.95,
+    "price_24h_after": 79626.14,
+    "vol_before": 0.6645,
+    "vol_after": 0.867,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "11f319ba1aff",
+    "timestamp": "2025-05-07T18:00:00",
+    "headline": "Federal Reserve holds rates steady, warns of rising risks from tariff-driven inflation",
+    "content": "The Fed kept rates at 4.25-4.50%, citing elevated uncertainty from tariffs. Powell flagged that tariff-driven price increases could delay cuts further.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 97032.32,
+    "price_1h_after": 97032.32,
+    "price_4h_after": 97032.32,
+    "price_24h_after": 103241.46,
+    "vol_before": 0.2227,
+    "vol_after": 0.2856,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "7673d7097208",
+    "timestamp": "2025-05-12T10:00:00",
+    "headline": "US and China agree to slash tariffs for 90 days in Geneva trade deal",
+    "content": "Following Geneva talks, the US reduced tariffs on China to 30% and China reduced tariffs on US goods to 10% for a 90-day negotiation window. Markets rallied sharply.",
+    "source": "reuters",
+    "event_type": "geopolitical",
+    "price_at_event": 102812.95,
+    "price_1h_after": 102812.95,
+    "price_4h_after": 102812.95,
+    "price_24h_after": 104169.81,
+    "vol_before": 0.389,
+    "vol_after": 0.4828,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "b58242c5ce9e",
+    "timestamp": "2025-05-22T10:00:00",
+    "headline": "Bitcoin breaks $110,000, reaching new all-time high amid institutional demand",
+    "content": "Bitcoin surged past $110,000 as institutional inflows accelerated. ETF assets under management crossed $150 billion. Corporate treasuries including MicroStrategy continued accumulating.",
+    "source": "bloomberg",
+    "event_type": "technical",
+    "price_at_event": 111673.28,
+    "price_1h_after": 111673.28,
+    "price_4h_after": 111673.28,
+    "price_24h_after": 107287.8,
+    "vol_before": 0.2621,
+    "vol_after": 0.2947,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "dab65aa60678",
+    "timestamp": "2025-06-18T18:00:00",
+    "headline": "Federal Reserve holds rates at 4.25-4.50% for sixth consecutive meeting",
+    "content": "The Fed maintained its policy rate unchanged for the sixth consecutive meeting. Dot plot suggests one or two rate cuts by year-end. Powell cited trade policy uncertainty.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 104883.33,
+    "price_1h_after": 104883.33,
+    "price_4h_after": 104883.33,
+    "price_24h_after": 104684.29,
+    "vol_before": 0.3761,
+    "vol_after": 0.2578,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "c4626a4faa5a",
+    "timestamp": "2025-07-10T08:30:00",
+    "headline": "US CPI drops to 2.4%, below expectations, raising hopes for September rate cut",
+    "content": "June CPI came in at 2.4% year-over-year versus 2.6% expected. Core CPI also dipped. Markets surged as traders priced in a September rate cut at 80% probability.",
+    "source": "reuters",
+    "event_type": "macro_data",
+    "price_at_event": 115987.2,
+    "price_1h_after": 115987.2,
+    "price_4h_after": 115987.2,
+    "price_24h_after": 117516.99,
+    "vol_before": 0.3106,
+    "vol_after": 0.3586,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "547eb229803f",
+    "timestamp": "2025-07-30T18:00:00",
+    "headline": "Federal Reserve holds rates but signals September cut is likely",
+    "content": "The Fed held rates at 4.25-4.50% but shifted language to 'the Committee judges that the risks have moved closer to balance.' Markets took this as a strong signal for a September rate cut.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 117831.19,
+    "price_1h_after": 117831.19,
+    "price_4h_after": 117831.19,
+    "price_24h_after": 115758.2,
+    "vol_before": 0.1773,
+    "vol_after": 0.1506,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "5c483d39029b",
+    "timestamp": "2025-08-15T09:00:00",
+    "headline": "MicroStrategy surpasses 600,000 BTC holdings, becomes largest corporate Bitcoin holder",
+    "content": "MicroStrategy announced it now holds over 600,000 Bitcoin, acquired at an average price of approximately $40,000. CEO Michael Saylor doubled down on his Bitcoin strategy.",
+    "source": "bloomberg",
+    "event_type": "earnings",
+    "price_at_event": 117398.35,
+    "price_1h_after": 117398.35,
+    "price_4h_after": 117398.35,
+    "price_24h_after": 117491.35,
+    "vol_before": 0.3371,
+    "vol_after": 0.4398,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "07e60d1908df",
+    "timestamp": "2025-09-17T18:00:00",
+    "headline": "Federal Reserve cuts rates by 25 basis points, first cut of 2025",
+    "content": "The Fed cut rates by 25bp to 4.00-4.25%, citing further progress on inflation and a softening labor market. Two more cuts are projected for 2025.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 116468.51,
+    "price_1h_after": 116468.51,
+    "price_4h_after": 116468.51,
+    "price_24h_after": 117137.2,
+    "vol_before": 0.1663,
+    "vol_after": 0.1396,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "7788ad964dda",
+    "timestamp": "2025-10-08T14:00:00",
+    "headline": "Senate passes GENIUS Act establishing comprehensive stablecoin regulatory framework",
+    "content": "The US Senate passed the GENIUS Act with bipartisan support, creating a clear regulatory framework for stablecoins. The bill requires reserves, audits, and Fed licensing.",
+    "source": "reuters",
+    "event_type": "regulatory",
+    "price_at_event": 123354.87,
+    "price_1h_after": 123354.87,
+    "price_4h_after": 123354.87,
+    "price_24h_after": 121705.59,
+    "vol_before": 0.377,
+    "vol_after": 0.2901,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "74473d62a18f",
+    "timestamp": "2025-10-29T14:00:00",
+    "headline": "US GDP grows 3.1% in Q3 2025, beating expectations as consumer spending remains strong",
+    "content": "The US economy grew at a 3.1% annualized rate in Q3, well above the 2.4% consensus estimate. Consumer spending was the main driver, rising 3.6%.",
+    "source": "bloomberg",
+    "event_type": "macro_data",
+    "price_at_event": 110055.3,
+    "price_1h_after": 110055.3,
+    "price_4h_after": 110055.3,
+    "price_24h_after": 108305.55,
+    "vol_before": 0.3259,
+    "vol_after": 0.3431,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "70d2000826b9",
+    "timestamp": "2025-11-05T18:00:00",
+    "headline": "Federal Reserve cuts rates by 25bp to 3.75-4.00%, signals December cut possible",
+    "content": "The Fed delivered another 25bp cut. Powell noted inflation continuing to decelerate and said the committee would assess incoming data for the December meeting.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 103891.84,
+    "price_1h_after": 103891.84,
+    "price_4h_after": 103891.84,
+    "price_24h_after": 101301.29,
+    "vol_before": 0.4285,
+    "vol_after": 0.5027,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  },
+  {
+    "event_id": "54637a28a00b",
+    "timestamp": "2025-11-20T10:00:00",
+    "headline": "Bitcoin approaches $120,000 as institutional and sovereign adoption accelerates",
+    "content": "Bitcoin neared $120,000 amid reports that multiple sovereign wealth funds are adding Bitcoin to reserves. Abu Dhabi's Mubadala and Norway's NBIM have disclosed BTC ETF holdings.",
+    "source": "bloomberg",
+    "event_type": "technical",
+    "price_at_event": 86631.9,
+    "price_1h_after": 86631.9,
+    "price_4h_after": 86631.9,
+    "price_24h_after": 85090.69,
+    "vol_before": 0.4734,
+    "vol_after": 0.5123,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "ab4b945d4594",
+    "timestamp": "2025-12-10T14:00:00",
+    "headline": "US CPI falls to 2.1%, nearly reaching Fed's 2% target",
+    "content": "November CPI came in at 2.1% year-over-year, the lowest since early 2021. Core CPI hit 2.3%. Markets rallied as the inflation battle appeared nearly won.",
+    "source": "reuters",
+    "event_type": "macro_data",
+    "price_at_event": 92020.95,
+    "price_1h_after": 92020.95,
+    "price_4h_after": 92020.95,
+    "price_24h_after": 92511.34,
+    "vol_before": 0.4693,
+    "vol_after": 0.3334,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "wire"
+    }
+  },
+  {
+    "event_id": "212bbc57c227",
+    "timestamp": "2025-12-17T18:00:00",
+    "headline": "Federal Reserve cuts rates by 25bp to 3.50-3.75%, signals cautious approach for 2026",
+    "content": "The Fed cut rates by 25bp in the last meeting of 2025, bringing the total to 75bp of cuts in 2025 and 175bp total since September 2024. The dot plot projects two more cuts in 2026.",
+    "source": "fed",
+    "event_type": "rate_decision",
+    "price_at_event": 86143.76,
+    "price_1h_after": 86143.76,
+    "price_4h_after": 86143.76,
+    "price_24h_after": 85462.51,
+    "vol_before": 0.3193,
+    "vol_after": 0.3146,
+    "metadata": {
+      "asset": "BTC",
+      "source_category": "official"
+    }
+  }
+]

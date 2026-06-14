@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-06T19:58:10.450000",
+  "performance": {
+    "period": "2024-01-10 to 2025-12-18",
+    "initial_capital": 100000.0,
+    "final_capital": 100429.91,
+    "total_return": "0.43%",
+    "annualized_return": "0.24%",
+    "sharpe_ratio": 2.191,
+    "sortino_ratio": 10.431,
+    "max_drawdown": "0.57%",
+    "total_trades": 31,
+    "win_rate": "45.16%",
+    "profit_factor": 1.29,
+    "directional_accuracy": "45.16%",
+    "avg_holding_period": "20 days, 12:22:15.483871"
+  },
+  "event_study_accuracy": 0.6129,
+  "modules_loaded": 67,
+  "events_analyzed": 35,
+  "trades": 31
+}

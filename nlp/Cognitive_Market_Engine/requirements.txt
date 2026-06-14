@@ -1,0 +1,48 @@
+# ============================================================
+# Cognitive Market Engine — Requirements
+# Python 3.8+
+# ============================================================
+
+# ---- Priority 1: Core NLP & Data ----
+spacy>=3.5
+transformers>=4.30
+torch>=2.0
+sentencepiece>=0.1.99
+
+# ---- Priority 1: News Ingestion ----
+requests>=2.28
+feedparser>=6.0
+aiohttp>=3.8
+
+# ---- Priority 1: Storage ----
+networkx>=3.0
+
+# ---- Priority 2: Scenario & Analysis ----
+numpy>=1.24
+scipy>=1.10
+
+# ---- Priority 3: Dashboard & Data Processing ----
+streamlit>=1.25
+pandas>=2.0
+
+# ---- Priority 3: Scheduling ----
+schedule>=1.2
+
+# ---- Priority 4: LLM Integration ----
+openai>=1.0
+
+# ---- Priority 4: Social Media ----
+praw>=7.7
+tweepy>=4.14
+
+# ---- Priority 4: Web Scraping ----
+beautifulsoup4>=4.12
+
+# ---- Utilities ----
+python-dateutil>=2.8
+python-dotenv>=1.0
+tqdm>=4.65
+
+# ---- Optional: spaCy model (run after install) ----
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_trf  (for transformer model)
