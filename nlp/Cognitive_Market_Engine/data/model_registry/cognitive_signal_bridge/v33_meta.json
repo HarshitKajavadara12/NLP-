@@ -3,14 +3,14 @@
   "version": 33,
   "stage": "development",
   "metrics": {
-    "event_id": 251
+    "event_id": 321
   },
   "parameters": {
     "asset": "BTC",
     "event_type": "technical"
   },
-  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v33",
-  "created_at": 1772808133.0266755,
+  "artifact_path": "C:\\QMS validation\\NLP-\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v33",
+  "created_at": 1782031349.6500332,
   "description": "Signal for 54637a28a00b",
   "tags": {},
   "lineage": {}

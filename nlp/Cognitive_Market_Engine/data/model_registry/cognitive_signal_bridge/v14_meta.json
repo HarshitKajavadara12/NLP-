@@ -3,14 +3,14 @@
   "version": 14,
   "stage": "development",
   "metrics": {
-    "event_id": 95
+    "event_id": 108
   },
   "parameters": {
     "asset": "BTC",
     "event_type": "regulatory"
   },
-  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v14",
-  "created_at": 1772808129.9310882,
+  "artifact_path": "C:\\QMS validation\\NLP-\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v14",
+  "created_at": 1782031349.3858523,
   "description": "Signal for e107db50da26",
   "tags": {},
   "lineage": {}

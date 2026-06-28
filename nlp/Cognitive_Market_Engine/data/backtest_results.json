@@ -1,22 +1,166 @@
 {
-  "timestamp": "2026-03-06T19:58:10.450000",
-  "performance": {
-    "period": "2024-01-10 to 2025-12-18",
+  "timestamp": "2026-06-21T14:12:29.773283",
+  "config": {
+    "asset": "BTC",
     "initial_capital": 100000.0,
-    "final_capital": 100429.91,
-    "total_return": "0.43%",
-    "annualized_return": "0.24%",
-    "sharpe_ratio": 2.191,
-    "sortino_ratio": 10.431,
-    "max_drawdown": "0.57%",
-    "total_trades": 31,
-    "win_rate": "45.16%",
-    "profit_factor": 1.29,
-    "directional_accuracy": "45.16%",
-    "avg_holding_period": "20 days, 12:22:15.483871"
+    "max_position_pct": 0.08,
+    "max_holding_hours": 48
   },
-  "event_study_accuracy": 0.6129,
-  "modules_loaded": 67,
-  "events_analyzed": 35,
-  "trades": 31
+  "performance": {
+    "period": "2024-09-18 to 2025-10-08",
+    "initial_capital": 100000.0,
+    "final_capital": 100024.88,
+    "total_return": "0.02%",
+    "annualized_return": "0.01%",
+    "sharpe_ratio": 1.013,
+    "sortino_ratio": 6.819,
+    "max_drawdown": "0.15%",
+    "total_trades": 5,
+    "win_rate": "40.00%",
+    "profit_factor": 1.1,
+    "directional_accuracy": "40.00%",
+    "avg_holding_period": "24 days, 1:24:00"
+  },
+  "event_study": {
+    "directional_accuracy": 0.8,
+    "events_with_signals": 5
+  },
+  "participant_comparison": {
+    "retail": {
+      "accuracy": 0.5714,
+      "accuracy_pct": "57.1%",
+      "total_events": 35
+    },
+    "hft": {
+      "accuracy": 0.4857,
+      "accuracy_pct": "48.6%",
+      "total_events": 35
+    },
+    "hedge_fund": {
+      "accuracy": 0.5714,
+      "accuracy_pct": "57.1%",
+      "total_events": 35
+    },
+    "bank": {
+      "accuracy": 0.5714,
+      "accuracy_pct": "57.1%",
+      "total_events": 35
+    },
+    "market_maker": {
+      "accuracy": 0.4857,
+      "accuracy_pct": "48.6%",
+      "total_events": 35
+    },
+    "phase_bank": {
+      "accuracy": 0.4857,
+      "accuracy_pct": "48.6%",
+      "total_events": 35
+    },
+    "phase_hedge_fund": {
+      "accuracy": 0.5429,
+      "accuracy_pct": "54.3%",
+      "total_events": 35
+    },
+    "phase_hft": {
+      "accuracy": 0.5429,
+      "accuracy_pct": "54.3%",
+      "total_events": 35
+    },
+    "phase_market_maker": {
+      "accuracy": 0.5429,
+      "accuracy_pct": "54.3%",
+      "total_events": 35
+    },
+    "phase_retail": {
+      "accuracy": 0.5429,
+      "accuracy_pct": "54.3%",
+      "total_events": 35
+    }
+  },
+  "ambiguity": {
+    "ambiguous_events": 30,
+    "ambiguity_rate": "85.7%"
+  },
+  "validation": {
+    "checks_passed": 14,
+    "checks_total": 15,
+    "details": [
+      {
+        "name": "Events processed >= 20",
+        "passed": true,
+        "value": "35"
+      },
+      {
+        "name": "Trades executed >= 5",
+        "passed": true,
+        "value": "5"
+      },
+      {
+        "name": "Directional accuracy >= 60%",
+        "passed": true,
+        "value": "80.0%"
+      },
+      {
+        "name": "Win rate >= 45%",
+        "passed": false,
+        "value": "40.0%"
+      },
+      {
+        "name": "Sharpe ratio > 0",
+        "passed": true,
+        "value": "1.013"
+      },
+      {
+        "name": "Max drawdown < 30%",
+        "passed": "True",
+        "value": "0.1%"
+      },
+      {
+        "name": "Profit factor > 1.0",
+        "passed": "True",
+        "value": "1.100"
+      },
+      {
+        "name": "Participant interpretations > 0",
+        "passed": true,
+        "value": "35"
+      },
+      {
+        "name": "Scenario trees generated > 0",
+        "passed": true,
+        "value": "35"
+      },
+      {
+        "name": "Hidden truth analysis > 0",
+        "passed": true,
+        "value": "35"
+      },
+      {
+        "name": "Economic analysis > 0",
+        "passed": true,
+        "value": "11"
+      },
+      {
+        "name": "Alpha signals generated > 0",
+        "passed": true,
+        "value": "35"
+      },
+      {
+        "name": "Feedback loop active",
+        "passed": true,
+        "value": "True"
+      },
+      {
+        "name": "Data cutoff <= Dec 2025",
+        "passed": true,
+        "value": "2025-12-17"
+      },
+      {
+        "name": "CME modules loaded >= 20",
+        "passed": true,
+        "value": "67"
+      }
+    ]
+  },
+  "modules_loaded": 67
 }

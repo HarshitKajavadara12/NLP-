@@ -3,14 +3,14 @@
   "version": 22,
   "stage": "development",
   "metrics": {
-    "event_id": 367
+    "event_id": 528
   },
   "parameters": {
     "asset": "BTC",
     "event_type": "rate_decision"
   },
-  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v22",
-  "created_at": 1772808131.132348,
+  "artifact_path": "C:\\QMS validation\\NLP-\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v22",
+  "created_at": 1782031349.4973736,
   "description": "Signal for 11f319ba1aff",
   "tags": {},
   "lineage": {}

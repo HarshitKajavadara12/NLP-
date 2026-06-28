@@ -3,14 +3,14 @@
   "version": 8,
   "stage": "development",
   "metrics": {
-    "event_id": 693
+    "event_id": 846
   },
   "parameters": {
     "asset": "BTC",
     "event_type": "geopolitical"
   },
-  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v8",
-  "created_at": 1772808129.07695,
+  "artifact_path": "C:\\QMS validation\\NLP-\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v8",
+  "created_at": 1782031349.3003445,
   "description": "Signal for 6288b729d84a",
   "tags": {},
   "lineage": {}

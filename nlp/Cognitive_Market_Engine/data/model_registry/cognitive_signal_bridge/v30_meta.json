@@ -3,14 +3,14 @@
   "version": 30,
   "stage": "development",
   "metrics": {
-    "event_id": 516
+    "event_id": 207
   },
   "parameters": {
     "asset": "BTC",
     "event_type": "regulatory"
   },
-  "artifact_path": "C:\\Users\\HARSHIT\\Desktop\\New folder\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v30",
-  "created_at": 1772808132.5274737,
+  "artifact_path": "C:\\QMS validation\\NLP-\\nlp\\Cognitive_Market_Engine\\data\\model_registry/cognitive_signal_bridge/v30",
+  "created_at": 1782031349.613678,
   "description": "Signal for 7788ad964dda",
   "tags": {},
   "lineage": {}

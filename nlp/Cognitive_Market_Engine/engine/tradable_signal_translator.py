@@ -13,7 +13,11 @@ Signals are STRUCTURAL, not directional.
 """
 
 from dataclasses import dataclass, field
-from typing import Literal, List, Optional
+from typing import List, Optional
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 from enum import Enum
 from datetime import datetime
 import numpy as np

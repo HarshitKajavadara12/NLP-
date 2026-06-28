@@ -8,7 +8,11 @@ This is the foundation that makes the entire system unique.
 """
 
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Literal
+from typing import Dict, List, Optional
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 from enum import Enum
 from datetime import datetime
 import json
